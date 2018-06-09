@@ -51,7 +51,7 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    /*bottom: -10px;*/
+
 }
 
 .about-me__txt
@@ -65,4 +65,34 @@ header {
 {
     border-radius: 20px;
 
+}
+
+.h2--experience
+{
+    color:whitesmoke;
+
+
+}
+
+
+
+.h2--experience:after
+{
+
+    content: "";
+    border-bottom: 5px solid whitesmoke;
+    width: 130px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.experience--style
+{
+    background-image: url("../img/header--bg1.jpg");
+   height:70vh;
+color:whitesmoke;
+    background-position: left;
+    /*background-size: cover;*/
 }
