@@ -2,7 +2,6 @@
 body {
     font-family: 'Lato', sans-serif;
 }
-
 .header__h1 {
     text-align: center;
     position: absolute;
@@ -13,55 +12,38 @@ body {
     font-family: 'Stalinist One', cursive;
     color: whitesmoke;
 }
-
 .navbar--z-index {
     z-index: 1;
 }
-
 header {
     height: 85vh;
     background-image: url("../img/header--bg.jpg");
     background-position: center;
     background-size: cover;
 }
-
 .nav-link--style {
     color: #8e4774;
     font-family: 'Stalinist One', cursive;
-
     font-size: 0.8em;
 }
-
 .nav-link--style:hover {
     background-color: #8e4774;
     color: white;
     transition: 0.6s;
 }
-.h2--intro
-{
-
+.h2--intro {
     font-family: 'Stalinist One', cursive;
-
 }
-
-
-
 .intro {
     font-size: 1.2em;
     height: 29vh;
-
 }
-
-
-.h2--about-me
-{
+.h2--about-me {
     font-family: 'Stalinist One', cursive;
-  font-weight: 400;
-
+    font-weight: 400;
 }
 
 .h2--about-me:after {
-
     content: "";
     border-bottom: 5px solid #8e4774;
     width: 200px;
@@ -69,33 +51,18 @@ header {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-
 }
-
-.about-me__txt
-{
+.about-me__txt {
     font-size: 1.1em;
-
-
 }
-
-.about-me__img
-{
+.about-me__img {
     border-radius: 20px;
-
 }
-
-.h2--experience
-{
-    color:whitesmoke;
+.h2--experience {
+    color: whitesmoke;
     font-family: 'Stalinist One', cursive;
-
 }
-
-
-
-.h2--experience:after
-{
+.h2--experience:after {
 
     content: "";
     border-bottom: 5px solid whitesmoke;
@@ -105,51 +72,33 @@ header {
     left: 50%;
     transform: translateX(-50%);
 }
-
-.experience--style
-{
+.experience--style {
     background-image: url("../img/header--bg1.jpg");
-   /*min-height:100%;*/
+    /*min-height:100%;*/
     min-height: 90vh;
-color:whitesmoke;
+    color: whitesmoke;
     background-position: left;
     /*background-size: cover;*/
 }
 
-.experience__imgs{
+.experience__imgs {
     font-size: 50px;
-
-
 }
-
-.experience__ul
-{
+.experience__ul {
     /*font-size:1.2em ;*/
     font-size: 1.1em;
     /*position: relative;*/
     /*left:50%;*/
     /*transform: translateX(-25%);*/
 }
-.experience__p
-{
- /*font-size: 1.2em;   */
+.experience__p {
+    /*font-size: 1.2em;   */
     font-size: 1.1em;
 }
-.zr
-{
-    background-color: white;
-
-}
-.h2--contact
-{
-
+.h2--contact {
     font-family: 'Stalinist One', cursive;
-
 }
-
-.h2--contact:after
-{
-
+.h2--contact:after {
     content: "";
     border-bottom: 5px solid #8e4774;
     width: 240px;
@@ -158,33 +107,31 @@ color:whitesmoke;
     left: 50%;
     transform: translateX(-50%);
 }
-
-.contact--styles
-{
+.contact--styles {
     font-size: 1.1em;
-    min-height: 50vh;
-
+    min-height: 60vh;
 }
-
-.footer
-{
+.footer {
     background-image: url("../img/header--bg1.jpg");
     background-position: center;
     background-size: cover;
-    color:whitesmoke;
-
+    color: whitesmoke;
 }
-
-.tech--styles
-{
+.tech--styles {
     margin-top: 25%;
 
-
 }
-
-.icon:hover
-{
+.icon:hover {
 
     opacity: 0.9;
 }
 
+.top-button
+{
+    position: fixed;
+    right:20px;
+    bottom: 20px;
+    padding: 0.5em 0.9em;
+    background-color: #6f42c1;
+    border: none;
+}
