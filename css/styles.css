@@ -36,17 +36,34 @@ header {
     background-color: #8e4774;
     color: white;
 }
+.h2--intro
+{
+
+    font-family: 'Stalinist One', cursive;
+
+}
+
+
 
 .intro {
     font-size: 1.2em;
     height: 29vh;
+
+}
+
+
+.h2--about-me
+{
+    font-family: 'Stalinist One', cursive;
+
+
 }
 
 .h2--about-me:after {
 
     content: "";
     border-bottom: 5px solid #8e4774;
-    width: 100px;
+    width: 200px;
     display: block;
     position: absolute;
     left: 50%;
@@ -70,7 +87,7 @@ header {
 .h2--experience
 {
     color:whitesmoke;
-
+    font-family: 'Stalinist One', cursive;
 
 }
 
@@ -81,7 +98,7 @@ header {
 
     content: "";
     border-bottom: 5px solid whitesmoke;
-    width: 130px;
+    width: 240px;
     display: block;
     position: absolute;
     left: 50%;
@@ -91,8 +108,19 @@ header {
 .experience--style
 {
     background-image: url("../img/header--bg1.jpg");
-   height:70vh;
+   min-height:100%;
 color:whitesmoke;
     background-position: left;
     /*background-size: cover;*/
+}
+
+.experience__imgs{
+    font-size: 50px;
+
+
+}
+.zr
+{
+    background-color: white;
+
 }
