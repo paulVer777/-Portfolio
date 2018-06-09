@@ -35,6 +35,7 @@ header {
 .nav-link--style:hover {
     background-color: #8e4774;
     color: white;
+    transition: 0.6s;
 }
 .h2--intro
 {
@@ -108,7 +109,8 @@ header {
 .experience--style
 {
     background-image: url("../img/header--bg1.jpg");
-   min-height:100%;
+   /*min-height:100%;*/
+    min-height: 90vh;
 color:whitesmoke;
     background-position: left;
     /*background-size: cover;*/
@@ -175,7 +177,14 @@ color:whitesmoke;
 
 .tech--styles
 {
-    background-color: white;
-color: #171a1d;
+    margin-top: 25%;
+
 
 }
+
+.icon:hover
+{
+
+    opacity: 0.9;
+}
+
