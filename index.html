@@ -9,22 +9,20 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Stalinist+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="img/development.png">
 
     <title>Purple</title>
 </head>
 <body>
 
-
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 p-0">
-
             <header>
-
                 <nav>
-                    <div class="navbar navbar-expand-sm navbar-light bg-light  navbar--z-index">
+                    <div class="navbar navbar-expand-sm position-fixed navbar-light bg-light  navbar--z-index w-100">
                         <div class="container">
                             <a class="navbar-brand" href="#">
                                 <img src="img/development.png" width="30" height="30" alt=""
@@ -35,24 +33,16 @@
                             </button>
                             <div class="collapse navbar-collapse justify-content-sm-end" id="mainNav">
                                 <a class="nav-item nav-link nav-link--style" href="#">Home</a>
-                                <a class="nav-item nav-link nav-link--style" href="#">About me</a>
-                                <a class="nav-item nav-link nav-link--style" href="#">Experience</a>
+                                <a class="nav-item nav-link nav-link--style" href="#about-me">About me</a>
+                                <a class="nav-item nav-link nav-link--style" href="#experience">Experience</a>
                                 <a class="nav-item nav-link nav-link--style" href="#">Contact</a>
                             </div>
-
                         </div>
-
-
                     </div>
-
-
                 </nav>
                 <h1 class="header__h1"><span class="mr-2"><img src="img/development.png" width="70" height="70"></span>Front-end
                     Dev</h1>
-
             </header>
-
-
         </div>
     </div>
 </div>
@@ -65,25 +55,20 @@
 
             <section>
 
-                <h2 class="text-center mt-5 h2--intro">Need a ...</h2>
+                <h3 class="text-center mt-5 h2--intro">Need a ...</h3>
                 <div class="row text-center mt-5 intro ">
 
-
                     <div class="col-4 ">
-                        <img src="img/responsive.png" width="70" height="70" class="mr-2">
-                        Full responsive
+                        <img src="img/responsive.png" width="70" height="70" class="mb-2">
+                        <p>Full responsive</p>
                     </div>
-
                     <div class="col-4">
-
-                        <img src="img/electric-guitar.png" width="70" height="70" class="mr-2">
-                        original
+                        <img src="img/electric-guitar.png" width="70" height="70" class="mb-2">
+                        <p>original</p>
                     </div>
-
                     <div class="col-4">
-
-                        <img src="img/html.png" width="70" height="70" class="mr-2">
-                        website?
+                        <img src="img/html.png" width="70" height="70" class="mb-2">
+                        <p>website?</p>
                     </div>
                 </div>
 
@@ -102,120 +87,128 @@
 </div>
 <hr>
 
-<div class="container-fluid">
-
+<div class="container-fluid" id="about-me">
 
     <div class="row mt-5">
-
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-5 text-center">
-
             <img src="img/cvprofile.jpg" width="300" height="500" class="img-fluid about-me__img">
-
         </div>
         <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
-
-            <h2 class="text-center mt-3 h2--about-me">About me</h2>
-
+            <h3 class="text-center mt-3 h2--about-me">About me</h3>
             <p class="p-5 text-center about-me__txt">Hello, my name is Pawel and im a Front-end developer. Some time ago
                 i've started learn front-end technologies and discovered that i really like it, so decided to make it a
                 way for a living. I mainly make a websites and web applications.<br><br>
 
                 Apart from coding i love to play play guitar, watch movies and listen to music, it gives me a huge
                 amount of inspiration :)</p>
-
-
         </div>
-
-
     </div>
-
 </div>
 
-<div class="container-fluid">
-
+<div class="container-fluid" id="experience">
     <div class="row experience--style">
-
         <div class="col-sm-12">
-            <h2 class="text-center mt-5 mb-3 h2--experience">Experience</h2>
-
+            <h3 class="text-center mt-5 mb-3 h2--experience">Experience</h3>
             <h4 class="text-center mt-5">Junior Front-end Developer course (320h)<br>
                 at infoShare Acadedmy:
             </h4>
-
-            <ul class="mt-5">
-                <li>Learning Java Script (ES5 & ES6), React + Redux, CSS3, RWD, HTML5, Bootstrap4, GIT, REST API, JSON</li>
+            <ul class="mt-5 experience__ul mb-5 text-center">
+                <li>Learning Java Script (ES5 & ES6), React + Redux, CSS3, RWD, <br>HTML5, Bootstrap4, GIT, REST API,
+                    JSON
+                </li>
                 <li>Working in SCRUM team of 4 people</li>
                 <li>Making professional responsive website</li>
                 <li>Building application for financial managament using REACT (Redux)</li>
                 <li>Learning how to use non-SQL database-Firebase</li>
             </ul>
-
-
         </div>
         <div class="col-sm-12">
             <!--<h4 class="text-center">Technologies i use</h4>-->
-
             <div class="row text-center mt-3">
-
                 <div class="col-3">
                     <i class="fab fa-html5 experience__imgs" style="color:#e7593d"></i>
-                     <p>HTML5</p>
+                    <p class="experience__p">HTML5</p>
                 </div>
-
                 <div class="col-3">
                     <i class="fab fa-css3-alt experience__imgs" style="color:#03cce6"></i>
-                    <p>CSS3</p>
+                    <p class="experience__p">CSS3</p>
                 </div>
-
                 <div class="col-3">
-
                     <i class="fab fa-js-square experience__imgs " style="color:#f7df1e"></i>
-                     <p>JavaScript</p>
-
-
+                    <p class="experience__p">JavaScript</p>
                 </div>
-
                 <div class="col-3">
-
                     <i class="fab fa-react experience__imgs" style="color:#00d8ff"></i>
-                       <p>REACT</p>
-
-
+                    <p class="experience__p">REACT</p>
                 </div>
             </div>
-<div class="row mt-5 text-center">
-
-    <div class="col-3">
-        <i class="fas fa-puzzle-piece big experience__imgs" style="color:purple"></i>
-        <p>Bootstrap 4</p>
+            <div class="row mt-5 text-center">
+                <div class="col-3">
+                    <i class="fas fa-puzzle-piece big experience__imgs" style="color:purple"></i>
+                    <p class="experience__p">Bootstrap 4</p>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-share-square big experience__imgs" style="color:#267ee2"></i>
+                    <p class="experience__p">AJAX</p>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-tasks big experience__imgs" style="color:#0c4ed1"></i>
+                    <p class="experience__p">JIRA</p>
+                </div>
+                <div class="col-3">
+                    <i class="fab fa-git big experience__imgs" style="color:black"></i>
+                    <p class="experience__p">GIT</p>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
 
-    <div class="col-3">
-        <i class="fas fa-share-square big experience__imgs" style="color:#267ee2"></i>
-        <p>AJAX</p>
-    </div>
+<div class="container-fluid">
+    <div class="row mb-5">
+        <div class="col-12">
 
-    <div class="col-3">
+            <h3 class="text-center mt-5 h2--contact">Contact</h3>
 
-        <i class="fas fa-tasks big experience__imgs" style="color:#0c4ed1"></i>
-<p>JIRA</p>
-    </div>
+            <div class="row text-center mt-5 contact--styles">
 
-    <div class="col-3">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-5">
 
-        <i class="fab fa-git big experience__imgs" style="color:black"></i>
-         <p>GIT</p>
+                    <img src="img/mobile-phone.png" width="60" height="60" class="mb-3">
+                    <p>884 625 739</p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+
+                    <img src="img/gmail.png" width="60" height="60" class="mb-3">
+                    <p>pawel.polit.dev@gmail.com</p>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 mt-5">
+
+                    <a href="https://www.facebook.com/profile.php?id=100004989582393"><img src="img/facebook.png" width="60"
+                                                                            height="60" class="mb-3"></a>
+                    <p>Facebook</p>
+                </div>
+            </div>
+        </div>
     </div>
 
 
 </div>
 
+<div class="container-fluid">
+    <div class="row footer">
+        <div class="col-12">
+            <img src="img/linkedin.png" width="40" height="40">
         </div>
-
-
+        <div class="col-12">
+            <img src="img/github-logo.png" width="40" height="40">
+        </div>
+        <div class="col-12">
+            <h5 class="text-center">2018</h5>
+        </div>
     </div>
-
-
 </div>
 
 

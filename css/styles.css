@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    height: 70vh;
+    height: 85vh;
     background-image: url("../img/header--bg.jpg");
     background-position: center;
     background-size: cover;
@@ -55,7 +55,7 @@ header {
 .h2--about-me
 {
     font-family: 'Stalinist One', cursive;
-
+  font-weight: 400;
 
 }
 
@@ -119,8 +119,55 @@ color:whitesmoke;
 
 
 }
+
+.experience__ul
+{
+    /*font-size:1.2em ;*/
+    font-size: 1.1em;
+    /*position: relative;*/
+    /*left:50%;*/
+    /*transform: translateX(-25%);*/
+}
+.experience__p
+{
+ /*font-size: 1.2em;   */
+    font-size: 1.1em;
+}
 .zr
 {
     background-color: white;
+
+}
+.h2--contact
+{
+
+    font-family: 'Stalinist One', cursive;
+
+}
+
+.h2--contact:after
+{
+
+    content: "";
+    border-bottom: 5px solid #8e4774;
+    width: 240px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact--styles
+{
+    font-size: 1.1em;
+    min-height: 50vh;
+
+}
+
+.footer
+{
+    background-image: url("../img/header--bg1.jpg");
+    background-position: center;
+    background-size: cover;
 
 }
