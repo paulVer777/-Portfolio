@@ -7,44 +7,33 @@ window.addEventListener('scroll', () => {
     else button.fadeOut(500)
 });
 
-//////////////////////////////////////////////////
-let count=0;
-let countRocket=10;
+/////////////////EFFECTS/////////////////////////
+let count = 0;
+let countRocket = 10;
 
 const crazy = () => {
+    const icon = $('.header__icon');
+    count = count + 1;
 
-    const icon = $('.header__icon')
-    count=count+1;
-
-    if(count===360) count=0;
+    if (count === 360) count = 0;
 
     icon.css('transform', `rotate(${count}deg)`)
-
-
-
-}
-
-
+};
 
 const rocket = () => {
+    const limit = $(window).width();
+    const icon = $('.rocket-icon');
+    countRocket += 10;
 
-     const limit=$(window).width()-100;
-
-
-    const icon = $('.rocket-icon')
-    countRocket+=10;
-
-    if(countRocket>limit) icon.fadeOut(500)
-
+    if (countRocket > limit) {
+        icon.fadeOut(500);
+        return
+    }
     icon.css('left', `${countRocket}px`);
-}
+};
 
-
-
-
-
-setInterval(crazy,50)
-setInterval(rocket,50)
+setInterval(crazy, 50);
+setInterval(rocket, 50);
 
 
 

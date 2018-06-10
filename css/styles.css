@@ -111,6 +111,16 @@ header {
     font-size: 1.1em;
 }
 
+@media (max-width: 400px) {
+    .experience__p
+    {
+        font-size: 1em;
+
+    }
+}
+
+
+
 .h2--contact {
     font-family: 'Stalinist One', cursive;
 }
@@ -182,4 +192,20 @@ position: absolute;
     top:100px;
     left:10px;
     transform: rotate(35deg);
+}
+
+.invader-icon
+{
+    position: absolute;
+    top:26.5vh;
+    right: 34.5vw;
+
+}
+
+@media (max-width: 400px) {
+    .rocket-icon
+    {
+        width: 40px;
+        height: 40px;
+    }
 }
