@@ -9,6 +9,7 @@ window.addEventListener('scroll', () => {
 
 //////////////////////////////////////////////////
 let count=0;
+let countRocket=10;
 
 const crazy = () => {
 
@@ -18,12 +19,32 @@ const crazy = () => {
     if(count===360) count=0;
 
     icon.css('transform', `rotate(${count}deg)`)
-console.log(count)
+
 
 
 }
 
+
+
+const rocket = () => {
+
+     const limit=$(window).width()-100;
+
+
+    const icon = $('.rocket-icon')
+    countRocket+=10;
+
+    if(countRocket>limit) icon.fadeOut(500)
+
+    icon.css('left', `${countRocket}px`);
+}
+
+
+
+
+
 setInterval(crazy,50)
+setInterval(rocket,50)
 
 
 
