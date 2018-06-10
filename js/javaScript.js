@@ -23,7 +23,7 @@ const crazy = () => {
 const rocket = () => {
     const limit = $(window).width();
     const icon = $('.rocket-icon');
-    countRocket += 10;
+    countRocket += 6;
 
     if (countRocket > limit) {
         icon.fadeOut(500);

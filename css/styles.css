@@ -6,7 +6,7 @@ body {
 .header__h1 {
     text-align: center;
     position: absolute;
-    top: 5.5em;
+    top: 5.1em;
     left: 50%;
     font-size: 2em;
     transform: translateX(-50%);
@@ -20,7 +20,7 @@ body {
 
 header {
     height: 85vh;
-    background-image: url("../img/header--bg.jpg");
+    background-image: url("../img/header--bg2.jpeg");
     background-position: center;
     background-size: cover;
 }
@@ -166,6 +166,7 @@ header {
     /*background-color: #6f42c1;*/
     /*border: none;*/
     transition: 0.7s;
+    background-color: #f66a70;
 }
 
 @media (max-width: 400px) {
@@ -190,7 +191,7 @@ header {
 
 position: absolute;
     top:100px;
-    left:10px;
+
     transform: rotate(35deg);
 }
 
