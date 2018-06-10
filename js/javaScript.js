@@ -32,9 +32,17 @@ const rocket = () => {
     icon.css('left', `${countRocket}px`);
 };
 
+//////// SMOTH SCROLLING////////////
+
 setInterval(crazy, 50);
 setInterval(rocket, 50);
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
 
-
-
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
