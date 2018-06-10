@@ -128,10 +128,19 @@ header {
 
 .top-button
 {
+    display:none;
     position: fixed;
     right:20px;
     bottom: 20px;
-    padding: 0.5em 0.9em;
-    background-color: #6f42c1;
-    border: none;
+    /*padding: 0.5em 0.9em;*/
+    /*background-color: #6f42c1;*/
+    /*border: none;*/
+    transition: 0.7s;
+}
+
+.top-button:hover
+{
+    transform: rotate(360deg);
+
+
 }
