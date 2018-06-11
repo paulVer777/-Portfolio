@@ -32,7 +32,6 @@ const rocket = () => {
     icon.css('left', `${countRocket}px`);
 };
 
-//////// SMOTH SCROLLING////////////
 
 setInterval(crazy, 50);
 setInterval(rocket, 50);
