@@ -54,7 +54,7 @@ header {
 .h2--about-me:after {
     content: "";
     border-bottom: 5px solid #8e4774;
-    width: 200px;
+    width: 155px;
     display: block;
     position: absolute;
     left: 50%;
@@ -78,7 +78,7 @@ header {
 
     content: "";
     border-bottom: 5px solid whitesmoke;
-    width: 240px;
+    width: 190px;
     display: block;
     position: absolute;
     left: 50%;
@@ -116,6 +116,7 @@ header {
         font-size: 1em;
 
     }
+
 }
 
 .h2--contact {
@@ -125,7 +126,7 @@ header {
 .h2--contact:after {
     content: "";
     border-bottom: 5px solid #8e4774;
-    width: 240px;
+    width: 120px;
     display: block;
     position: absolute;
     left: 50%;
@@ -180,8 +181,8 @@ header {
 
 @media (max-width: 400px) {
     .top-button__img {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
 
     .top-button {
