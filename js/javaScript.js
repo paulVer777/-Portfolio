@@ -11,6 +11,7 @@ window.addEventListener('scroll', () => {
 let count = 0;
 let countRocket = 10;
 
+
 const crazy = () => {
     const icon = $('.header__icon');
     count = count + 1;
@@ -32,9 +33,11 @@ const rocket = () => {
     icon.css('left', `${countRocket}px`);
 };
 
-
 setInterval(crazy, 50);
 setInterval(rocket, 50);
+
+
+////////SMOOTH SCROOLING/////////////////////////////////////////////
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

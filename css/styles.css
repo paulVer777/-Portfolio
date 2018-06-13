@@ -160,13 +160,11 @@ header {
 
     opacity: 0.9;
 }
-.icon--fb:hover
-{
-    transform:scale(1.1);
+
+.icon--fb:hover {
+    transform: scale(1.1);
 
 }
-
-
 
 .top-button {
     display: none;
@@ -201,14 +199,6 @@ header {
 
     transform: rotate(35deg);
 }
-
-/*.invader-icon*/
-/*{*/
-/*position: absolute;*/
-/*top:26.5vh;*/
-/*right: 34.5vw;*/
-
-/*}*/
 @media (max-width: 400px) {
     .rocket-icon {
         width: 40px;
@@ -216,15 +206,29 @@ header {
     }
 }
 
-.link-app{
+.link-app {
     text-decoration: none;
-
-
+    font-size: 30px;
+    opacity: 0.6;
+    color: #17a2b8;
 }
 
-.link-app:hover
-{
-
-
+.link-app:hover {
+    color: #17a2b8;
+    opacity: 1;
     text-decoration: none;
+}
+
+.link-github {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.link-github:hover {
+
+    color: black;
+    text-decoration: none;
+    opacity: 1;
 }
