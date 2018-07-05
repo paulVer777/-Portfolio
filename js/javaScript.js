@@ -22,22 +22,22 @@ const crazy = () => {
 };
 
 const rocket = () => {
-    const limit = $(window).width();
+    const limit = $(window).width()-80;
     const icon = $('.rocket-icon');
-    countRocket += 6;
+    countRocket ++;
 
     if (countRocket > limit) {
-        icon.fadeOut(500);
+        icon.fadeOut(1000);
         return
     }
     icon.css('left', `${countRocket}px`);
 };
 
 setInterval(crazy, 50);
-setInterval(rocket, 50);
+setInterval(rocket, 8);
 
 
-////////SMOOTH SCROOLING/////////////////////////////////////////////
+////////SMOOTH SCROLLING/////////////////////////////////////////////
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

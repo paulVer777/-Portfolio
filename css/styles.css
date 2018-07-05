@@ -146,7 +146,7 @@ header {
 }
 
 .tech--styles {
-    margin-top: 25%;
+    margin-top: 35%;
 
 }
 
@@ -231,4 +231,39 @@ header {
     color: black;
     text-decoration: none;
     opacity: 1;
+}
+
+@media (max-width: 575px) {
+    .tech--styles {
+        margin-top: 10%;
+    }
+}
+
+.projects
+{
+    font-family: 'Stalinist One', cursive;
+}
+
+.h4--projects:after {
+
+    content: "";
+    border-bottom: 5px solid #8e4774;
+    width: 150px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.projects__a
+{
+    transition: 0.3s ease-in-out;
+    opacity: 0.8;
+
+}
+.projects__a:hover
+{
+    /*transform: scale(1.1);*/
+    display: block;
+    background-color: #6f42c1;
+    opacity:1;
 }
