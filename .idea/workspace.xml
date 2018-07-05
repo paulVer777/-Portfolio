@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11b66c2c-b64d-49e6-8921-b8b1fbcb6b47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cvprofile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/letsgo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/letsgo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/javaScript.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+            <state relative-caret-position="156">
+              <caret line="224" column="55" selection-start-line="224" selection-start-column="55" selection-end-line="224" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -32,10 +30,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
+            <state relative-caret-position="573">
               <caret line="253" column="14" lean-forward="true" selection-start-line="253" selection-start-column="14" selection-end-line="253" selection-end-column="14" />
             </state>
           </provider>
@@ -60,8 +58,8 @@
       <list>
         <option value="$PROJECT_DIR$/../../Cvnowe/index.html" />
         <option value="$PROJECT_DIR$/js/javaScript.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -74,7 +72,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="83" />
     <option name="y" value="67" />
     <option name="width" value="1283" />
@@ -152,15 +150,16 @@
       <workItem from="1529226079446" duration="648000" />
       <workItem from="1529345095366" duration="1234000" />
       <workItem from="1530740043508" duration="1213000" />
-      <workItem from="1530783823701" duration="7438000" />
+      <workItem from="1530783823701" duration="9019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115380000" />
+    <option name="totallyTimeSpent" value="116961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24413146" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -533,20 +532,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="573">
+          <caret line="253" column="14" lean-forward="true" selection-start-line="253" selection-start-column="14" selection-end-line="253" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="253" column="14" lean-forward="true" selection-start-line="253" selection-start-column="14" selection-end-line="253" selection-end-column="14" />
+        <state relative-caret-position="156">
+          <caret line="224" column="55" selection-start-line="224" selection-start-column="55" selection-end-line="224" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
